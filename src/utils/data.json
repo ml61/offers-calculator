@@ -1,0 +1,49 @@
+{
+  "productTypes": {
+    "TV": "TV",
+    "PHONE": "PHONE",
+    "INTERNET": "INTERNET",
+    "DEKODER4K": "DEKODER4K"
+  },
+  "productTypesWithRequired": {
+    "DEKODER4K": ["TV"]
+  },
+  "productsOffers": [
+    {
+      "name": "Internet",
+      "types": ["INTERNET"],
+      "pricePerYear": { "2023": 39, "2024": 49, "2025": 59 },
+      "id": "1"
+    },
+    {
+      "name": "TV",
+      "types": ["TV"],
+      "pricePerYear": { "2023": 49, "2024": 49, "2025": 59 },
+      "id": "2"
+    },
+    {
+      "name": "Internet + TV",
+      "types": ["INTERNET", "TV", "DEKODER4K"],
+      "pricePerYear": { "2023": 79, "2024": 89, "2025": 99 },
+      "id": "3"
+    },
+    {
+      "name": "Internet + Phone",
+      "types": ["INTERNET", "PHONE"],
+      "pricePerYear": { "2023": 64, "2024": 64, "2025": 64 },
+      "id": "4"
+    },
+    {
+      "name": "Phone",
+      "types": ["PHONE"],
+      "pricePerYear": { "2023": 29, "2024": 29, "2025": 29 },
+      "id": "5"
+    },
+    {
+      "name": "Dekoder 4K",
+      "types": ["DEKODER4K"],
+      "pricePerYear": { "2023": 29, "2024": 29, "2025": 29 },
+      "id": "6"
+    }
+  ]
+}
